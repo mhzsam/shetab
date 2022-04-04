@@ -1,0 +1,32 @@
+html{
+  direction: rtl;
+}
+@font-face {
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap; 
+    src: url("~assets/fonts/IRANSans.woff") format('woff'), 
+    url("~assets/fonts/IRANSans.woff2") format('woff2'), 
+    url("~assets/fonts/IRANSans.otf") format('otf');
+
+  }
+  
+  main{
+    margin-right: 50px!important;
+    margin-top:10px ;
+  }
+
+
+*{
+    font-family: IRANSans !important;
+    /* direction: rtl; */
+    
+    
+
+}
+.full{
+  width: 100%;
+}
+
+

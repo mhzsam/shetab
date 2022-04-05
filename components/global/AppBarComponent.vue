@@ -21,7 +21,7 @@
       <v-spacer></v-spacer>
       <v-img class="mt-5 mx-5 mb-12" max-width="150" src="img/logow.png">
       </v-img>
-      <v-btn color="" class="white--text mt-5" to="/login"
+      <v-btn color="" class="white--text mt-5" href="/login"
         >ورود
         <v-icon class="">mdi-login-variant</v-icon>
       </v-btn>
@@ -44,14 +44,14 @@ export default {
     return {
       navItem: [
         { name: "خانه ", link: "/" },
-        { name: "داشبورد ", link: "/1" },
+        { name: "ناحیه کاربری  ", link: "/dashboard" },
         { name: "دوره ها ", link: "/2" },
         { name: "تیم من ", link: "/3" },
         { name: "وبینار ", link: "/4" },
         { name: "ثبت استارتاپ ", link: "/5" },
         { name: "تیم من ", link: "/6" },
         { name: "تعرفه ", link: "/7" },
-          { name: "ورود ", link: "/login" },
+          
       ],
       
     };

@@ -14,17 +14,11 @@
         show-arrows
       >
         <v-tab class="black--text" style="title-tab"> داشبورد</v-tab>
-        <v-tab-item>
-          
-          
-         
-          
-         
-        </v-tab-item>
+        <v-tab-item> </v-tab-item>
 
         <v-tab class="black--text" style="title-tab">ویرایش حساب</v-tab>
         <v-tab-item>
-           <Dashboard-UserPanel />
+          <Dashboard-UserPanel />
         </v-tab-item>
         <v-tab class="black--text" style="title-tab"> دوره ها</v-tab>
         <v-tab-item>
@@ -40,9 +34,7 @@
         </v-tab-item>
         <v-tab class="black--text" style="title-tab">پشتیبانی</v-tab>
         <v-tab-item>
-          <v-card flat>
-            <v-card-text> 4 </v-card-text>
-          </v-card>
+          <Dashboard-Support />
         </v-tab-item>
       </v-tabs>
     </v-card>
@@ -50,7 +42,6 @@
 </template>
 
 <script>
-
 export default {
   data() {
     return {

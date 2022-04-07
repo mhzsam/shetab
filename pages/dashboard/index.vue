@@ -29,7 +29,7 @@
         <v-tab class="black--text" style="title-tab">مالی</v-tab>
         <v-tab-item>
           <v-card flat>
-            <v-card-text> 3 </v-card-text>
+           <Dashboard-Financial />
           </v-card>
         </v-tab-item>
         <v-tab class="black--text" style="title-tab">پشتیبانی</v-tab>

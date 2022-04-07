@@ -49,7 +49,7 @@ export default {
         { name: "تیم من ", link: "/3" },
         { name: "وبینار ", link: "/4" },
         { name: "ثبت استارتاپ ", link: "/5" },
-        { name: "تیم من ", link: "/6" },
+        { name: "ادمین", link: "/6" },
         { name: "تعرفه ", link: "/7" },
           
       ],

@@ -6,53 +6,40 @@
           <div>
             <v-card-title primary-title>
               <v-icon class="mx-4">mdi-account-supervisor-outline</v-icon>
-              اخرین تیکن ها
+              اعتبار شما 
             </v-card-title>
             <v-divider inset></v-divider>
             <v-flex mt-5 d-flex justify-center>
-              <v-btn
-                width="70%"
-                class=""
-                height="50"
-                elevation="3"
-                color="#f4f6fc"
-                right
-                @click="dialogOn"
-                >تیکت 1 تاریخ 12/12/01</v-btn
-              >
+              <span class="ma-1">اعتبار شما  : </span>
+              <span class="ma-1"> 20000 </span>
+              <span class="ma-1">ریال</span>
+
             </v-flex>
-            <v-flex mt-5 d-flex justify-center>
-              <v-btn
-                width="70%"
-                class=""
-                height="50"
-                elevation="3"
-                color="#f4f6fc"
-                @click="dialogOn"
-                >تیکت 2 تاریخ 12/12/01</v-btn
-              >
-            </v-flex>
-            <v-flex mt-5 d-flex justify-center>
-              <v-btn
-                width="70%"
-                class=""
-                height="50"
-                elevation="3"
-                color="#f4f6fc"
-                @click="dialogOn"
-                >تیکت 3 تاریخ 12/12/01</v-btn
-              >
-            </v-flex>
-            <v-flex mt-5 d-flex justify-center>
+            
+           
+            <v-flex mx-5 mt-5 d-flex justify-center>
+                <v-text-field
+                
+                
+                background-color="white"
+                filled
+                prefix="مبلغ:"
+                color="#ccdcf2"
+                outlined
+                hint="موضوع تیکت را وارد کنید "
+                single-line
+                
+              ></v-text-field>
+              <v-spacer></v-spacer>
               <v-btn
                 dark
-                width="70%"
-                class="mt-5"
+               
+                class=""
                 height="50"
                 elevation="5"
                 color="#5b7bb6"
                 @click="dialogOn"
-                >مشاهده همه</v-btn
+                >شارژ سریع</v-btn
               >
             </v-flex>
           </div>
@@ -141,7 +128,7 @@
 
 <script>
 export default {
-  name: "Dashboard-Support",
+  name: "Dashboard-Financial",
   data() {
     return {
       dialog: false,

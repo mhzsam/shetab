@@ -31,6 +31,7 @@ export default {
         ],
       },
       options: {
+        
         maintainAspectRatio: false,
         responsive: true,
         tooltips: {
@@ -42,6 +43,7 @@ export default {
           intersect: 0,
           bodySpacing: 4,
           xPadding: 20,
+          
         },
       },
     };

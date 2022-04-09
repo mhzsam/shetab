@@ -46,11 +46,11 @@ export default {
         { name: "خانه ", link: "/" },
         { name: "ناحیه کاربری  ", link: "/dashboard" },
         { name: "دوره ها ", link: "/2" },
-        { name: "تیم من ", link: "/3" },
         { name: "وبینار ", link: "/4" },
         { name: "ثبت استارتاپ ", link: "/5" },
         { name: "ادمین", link: "/6" },
         { name: "تعرفه ", link: "/7" },
+        { name: "ورود", link: "/login" },
           
       ],
       

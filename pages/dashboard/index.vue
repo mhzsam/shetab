@@ -22,7 +22,7 @@
         <v-tab-item>
           <Dashboard-UserPanel />
         </v-tab-item>
-        <v-tab class="black--text" style="title-tab">خرید شده دوره ها</v-tab>
+        <v-tab class="black--text" style="title-tab">آخرین دوره های خرید شده </v-tab>
         <v-tab-item>
           <v-card flat>
             <Dashboard-Course />

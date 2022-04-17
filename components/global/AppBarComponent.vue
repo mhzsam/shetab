@@ -47,7 +47,7 @@ export default {
         { name: "ناحیه کاربری  ", link: "/dashboard" },
         { name: "دوره ها ", link: "/course" },
         { name: "وبینار ", link: "/4" },
-        { name: "ثبت استارتاپ ", link: "/5" },
+        { name: "ثبت استارتاپ ", link: "/startupRegistration" },
         { name: "ادمین", link: "/6" },
         { name: "تعرفه ", link: "/7" },
         { name: "ورود", link: "/login" },

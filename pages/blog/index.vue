@@ -13,31 +13,22 @@
         color="yellow "
         show-arrows
       >
-        <v-tab class="white--text" style="title-tab"> داشبورد</v-tab>
+        <v-tab class="white--text" style="title-tab"> جدید ترین ها</v-tab>
         <v-tab-item> 
-          <Dashboard />
+          <Blog />
         </v-tab-item>
 
-        <v-tab class="white--text" style="title-tab">ویرایش حساب</v-tab>
+        <v-tab class="white--text" style="title-tab">بیشترین بازدید</v-tab>
         <v-tab-item>
-          <Dashboard-UserPanel />
+          <Blog />
         </v-tab-item>
-        <v-tab class="white--text" style="title-tab">آخرین دوره های خرید شده </v-tab>
-        <v-tab-item>
-          <v-card flat>
-            <Dashboard-Course />
-          </v-card>
-        </v-tab-item>
-        <v-tab class="white--text" style="title-tab">مالی</v-tab>
+        <v-tab class="white--text" style="title-tab">بیشترین نظرات</v-tab>
         <v-tab-item>
           <v-card flat>
-           <Dashboard-Financial />
+            <Blog />
           </v-card>
         </v-tab-item>
-        <v-tab class="white--text" style="title-tab">پشتیبانی</v-tab>
-        <v-tab-item>
-          <Dashboard-Support />
-        </v-tab-item>
+        
       </v-tabs>
     </v-card>
   </div>

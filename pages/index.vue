@@ -1,16 +1,14 @@
 <template>
   <div>
-    <v-row class="pt-1">
-
-    <v-carousel cycle height="auto">
-      <v-carousel-item>
-        <v-img src="/img/wallpaper/2.png"> </v-img>
-      </v-carousel-item>
-      <v-carousel-item>
-        <v-img src="/img/wallpaper/1.png"> </v-img>
-      </v-carousel-item>
-    </v-carousel>
+    <v-row class="pt-3 ">
+      <v-carousel cycle height="auto">
+        <v-carousel-item>
+          <v-img src="/img/wallpaper/1.png"> </v-img>
+        </v-carousel-item>
+      </v-carousel>
+      
     </v-row>
+    
     <v-row>
       <v-col class="mt-10" cols="12">
         <h2 class="d-flex justify-center">خدمات ویژه استارتاپ ها</h2>
@@ -38,17 +36,24 @@
       </v-col>
     </v-row>
 
-    <v-parallax dark src="/img/wallpaper/para.jpg" height="350">
+    <v-parallax
+      gradient="to top right, rgba(252,255,0,.7), rgba(2,0,36,.7)"
+      dark
+      src="/img/wallpaper/para.jpg"
+      height="350"
+    >
       <v-row align="center" justify="center">
         <v-col class="text-center" cols="12">
-          <h1 class="text-h4 black--text font-weight-thin mb-4">هم اکنون</h1>
-          <h4 class="subheading black--text">با هم پیشرفت کنیم</h4>
-          <v-btn href="/login" width="200" class="mt-8">ثبت نام</v-btn>
+          <h1 class="text-h4 yellow--text font-weight-thin mb-4">هم اکنون</h1>
+          <h4 class="subheading yellow--text">با هم پیشرفت کنیم</h4>
+          <v-btn href="/login" color="yellow" width="200" class="mt-8"
+            >ثبت نام</v-btn
+          >
         </v-col>
       </v-row>
     </v-parallax>
 
-    <v-row>
+    <v-row class="" >
       <v-col class="mt-10" cols="12">
         <h2 class="d-flex justify-center">خدمات ویژه سرمایه‌گذاران</h2>
       </v-col>
@@ -94,19 +99,21 @@
         </div>
       </v-col>
       <v-col cols="12" md="6">
-        <div class="mt-12 px-8 mb-3 ">
+        <div class="mt-12 px-8 mb-3">
           <ul>
             <li>امکان دسترسی به پنل اختصاصی جهت مدیریت خدمات منتورینگ</li>
             <li>امکان مدیریت درخواست های مشاوره</li>
             <li>امکان تنظیم جلسات مشاوره در پنل</li>
             <li>امکان دریافت و ارسال گزارشات مرتبط با استارتاپ ها</li>
-            <li>مکان دسترسی به بخش اعظمی از محتواهای آموزشی و ابزارهای کاربردی جهت استفاده در جلسات منتورینگ</li>
-          
+            <li>
+              مکان دسترسی به بخش اعظمی از محتواهای آموزشی و ابزارهای کاربردی جهت
+              استفاده در جلسات منتورینگ
+            </li>
           </ul>
         </div>
       </v-col>
     </v-row>
-    <v-parallax class="mt-10" dark src="/img/wallpaper/footer.jpg" height="50">
+    <v-parallax class="mt-10" dark src="/img/wallpaper/para.jpg" height="50">
       <v-row align="center" justify="center"> </v-row>
     </v-parallax>
   </div>
@@ -130,5 +137,8 @@ export default {
 </script>
 
 <style scoped>
+.graybackground {
+  background-color: #333;
+}
 </style>>
 

@@ -2,11 +2,11 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  // server: {
-  //   port: 8000, // default: 3000
-  //   host: '94.182.186.227', // default: localhost,
-  //   timing: false
-  // },
+  server: {
+    port: 8000, // default: 3000
+    host: '94.182.186.227', // default: localhost,
+    timing: false
+  },
   head: {
     titleTemplate: '%s - shetab',
     title: 'shetab',

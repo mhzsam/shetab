@@ -1,7 +1,8 @@
 <template>
   <div class="">
     <div v-for="i in 5" :key="i">
-      <div class="pa-5 my-5">
+    <a  class="link" :href="'/blog/'+(i++)">
+           <div  class="pa-5 my-5">
         <v-card class="grey darken-4">
           <v-row>
             <v-col cols="8">
@@ -17,10 +18,10 @@
                   گرافیکی و یا صنعت چاپ استفاده میشود
                 </v-card-text>
                 <span class="text-justify red--text mb-5 mx-5">
-                      نویسنده: ادمین    
+                  نویسنده: ادمین    
                 </span>
                  <span class="h6 text-justify yellow--text mb-5 mx-5 ">
-                           تاریخ انتشار:1400/01/01
+                   تاریخ انتشار:1400/01/01
                 </span>
               </div>
             </v-col>
@@ -28,8 +29,8 @@
               <v-container fill-height fluid>
                 <v-row align="center" justify="center">
                   <v-col>
-
-                  <v-img contain max-height="150" src="img/blog.jpeg"></v-img>
+                    
+                    <v-img contain max-height="150" src="img/blog.jpeg"></v-img>
                   
                   </v-col>
                 </v-row>
@@ -46,6 +47,7 @@
           </v-row>
         </v-card>
       </div>
+       </a>
     </div>
   </div>
 </template>
@@ -58,6 +60,9 @@ export default {
 };
 </script>
 <style scoped>
+.link{
+  text-decoration: none;
+}
 .vert-text-btn {
   display: block;
   transform: rotate(90deg);
